@@ -56,6 +56,9 @@ return [
 
     'asset_url' => env('ASSET_URL', null),
 
+    //未支付订单生命周期
+    'order_ttl' => 1800,
+
     /*
     |--------------------------------------------------------------------------
     | Application Timezone
