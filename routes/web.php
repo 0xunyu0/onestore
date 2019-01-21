@@ -12,7 +12,7 @@
 */
 // 在之前的路由后面配上中间件  ->middleware('verified')
 // Route::get('/', 'PagesController@root')->name('root');
-Route::redirect('/', '/products')->name('root');
+Route::redirect('/', '/products')->name('root')->middleware('verified');
 Route::get('products', 'ProductsController@index')->name('products.index');
 Route::get('products', 'ProductsController@index')->name('products.index');
 

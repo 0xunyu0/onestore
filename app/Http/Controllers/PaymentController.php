@@ -25,7 +25,7 @@ class PaymentController extends Controller
         return app('alipay')->web([
             'out_trade_no' => $order->no, // 订单编号，需保证在商户端不重复
             'total_amount' => $order->total_amount, // 订单金额，单位元，支持小数点后两位
-            'subject'      => '支付 Laravel Shop 的订单：'.$order->no, // 订单标题
+            'subject'      => '支付 One Store 的订单：'.$order->no, // 订单标题
         ]);
     }
 

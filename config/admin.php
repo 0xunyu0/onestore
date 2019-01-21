@@ -5,17 +5,17 @@ return [
     /*
      * 站点标题
      */
-    'name' => 'Laravel Shop',
+    'name' => 'One Store',
 
     /*
      * 页面顶部 Logo
      */
-    'logo' => '<b>Laravel</b> Shop',
+    'logo' => '<b>One</b> Store',
 
     /*
      * 页面顶部小 Logo
      */
-    'logo-mini' => '<b>LS</b>',
+    'logo-mini' => '<b>OS</b>',
 
     /*
      * 路由配置
@@ -30,14 +30,14 @@ return [
     ],
 
     /*
-     * Laravel-Admin 的安装目录
+     * One Store-Admin 的安装目录
      */
     'directory' => app_path('Admin'),
 
     /*
-     * Laravel-Admin 页面标题
+     * One Store-Admin 页面标题
      */
-    'title' => 'Laravel Shop 管理后台',
+    'title' => 'One Store 管理后台',
 
     /*
      * 是否使用 https
@@ -45,7 +45,7 @@ return [
     'secure' => env('ADMIN_HTTPS', false),
 
     /*
-     * Laravel-Admin 用户认证设置
+     * One Store-Admin 用户认证设置
      */
     'auth' => [
 
@@ -67,7 +67,7 @@ return [
     ],
 
     /*
-     * Laravel-Admin 文件上传设置
+     * One Store-Admin 文件上传设置
      */
     'upload' => [
         // 对应 filesystem.php 中的 disks
@@ -80,7 +80,7 @@ return [
     ],
 
     /*
-     * Laravel-Admin 数据库设置
+     * One Store-Admin 数据库设置
      */
     'database' => [
 
@@ -112,7 +112,7 @@ return [
     ],
 
     /*
-     * Laravel-Admin 操作日志设置
+     * One Store-Admin 操作日志设置
      */
     'operation_log' => [
 
@@ -156,7 +156,7 @@ return [
     /*
      * 显示版本
      */
-    'show_version' => true,
+    'show_version' => false,
 
     /*
      * 显示环境
